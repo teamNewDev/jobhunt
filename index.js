@@ -1,2 +1,5 @@
-console.log("Hello World");
-console.log("hello" + "my" + "friend");
+function addSum(a, b) {
+  return a + b;
+}
+
+addSum(2, 6);
