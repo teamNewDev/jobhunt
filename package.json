@@ -8,6 +8,12 @@
     "lint": "eslint .",
     "prepare": "husky install"
   },
+  "lint-staged": {
+    "*.{js,ts}": [
+      "npm run lint",
+      "prettier --write"
+    ]
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
