@@ -9,9 +9,10 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.{js,ts}": [
+    "*.{js}": [
       "npm run lint",
-      "prettier --write"
+      "prettier --write",
+      "git add ."
     ]
   },
   "keywords": [],
