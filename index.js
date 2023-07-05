@@ -4,3 +4,5 @@ const currentYear = 2023;
 const age = currentYear - dateOfBirth;
 
 console.log(`Age is ${age}`);
+
+console.log("test");
